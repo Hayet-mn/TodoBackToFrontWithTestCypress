@@ -1,0 +1,96 @@
+.todo{
+  margin: 50px;
+}
+.todo .fas{
+  cursor: pointer;
+}
+.title {
+background-color: #131339;
+color: white;
+text-align: center;
+padding: 20px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.inputAdd{
+  height: 43px;
+  width: 96%;
+  color: grey;
+  font-size: 20px;
+}
+
+.todo-add .fas{
+  font-size: 40px;
+  color:white;
+}
+.btnAdd{
+  background-color: green;
+  border: none;
+}
+.todo-add{
+
+  padding: 10px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  }
+  .todoItem{
+    background-color:  #4dd2ff;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+  }
+  .comp {
+  border-radius: 50%;
+  background-color:white;
+  height: 25px;
+  width: 25px;
+
+  
+  
+
+  }
+
+  .btnEdit{
+    background-color: green;
+    border: none;
+    width: 40px;
+    height: 40px;
+
+  
+}
+
+.btnDlt{
+  background-color: #ff4d4d;
+  border: none;
+  width: 40px;
+  height: 40px;
+
+}
+.itemDesc .fas{
+  
+  font-size: 17px;
+  color:white;
+  margin: 5px 4px;
+
+}
+.itemEdit .fas{
+  font-size: 20px;
+  color:white;
+}
+.itemDesc{
+  
+  display: flex;
+  
+  align-items: baseline;
+}
+.itemDesc h3{
+  color: white;
+  margin-left: 10px;
+}
+.itemEdit{
+  display: flex;
+}

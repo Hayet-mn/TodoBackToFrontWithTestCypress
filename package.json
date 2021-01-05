@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "front": "cd client && npm start",
+    "back": "nodemon server.js",
+    "start": "concurrently \" npm run front \" \"npm  run back\"",
+   
+    "test": "cypress open"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.9",
+    "react-modal-hook": "^3.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "cypress": "^6.2.1",
+    "nodemon": "^2.0.6"
+  }
+}
